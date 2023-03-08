@@ -1,0 +1,19 @@
+# Gerado pelo CHATGPT
+
+1. Definir uma lista de palavras para o jogo
+2. Escolher aleatoriamente uma palavra da lista
+3. Mostrar a palavra como uma série de traços (um para cada letra)
+4. Definir o número máximo de tentativas para o jogador
+5. Iniciar a contagem de tentativas em 0
+6. Enquanto o jogador ainda tiver tentativas restantes e a palavra ainda não foi adivinhada:
+     7. Pedir ao jogador para fazer uma tentativa (digitar uma letra)
+     8. Verificar se a letra está na palavra:
+          a. Se a letra estiver na palavra, substituir o traço correspondente pela letra
+          b. Se a letra não estiver na palavra, informar o jogador que ele errou e incrementar o número de tentativas
+     9. Mostrar a palavra atualizada com as letras corretas e os traços restantes
+10. Verificar se a palavra foi adivinhada ou se o número máximo de tentativas foi alcançado
+     a. Se a palavra foi adivinhada, informar o jogador que ele venceu
+     b. Se o número máximo de tentativas foi alcançado, informar o jogador que ele perdeu
+11. Perguntar ao jogador se ele quer jogar novamente
+     a. Se o jogador quiser jogar novamente, voltar para o passo 2
+     b. Se o jogador não quiser jogar novamente, encerrar o jogo
