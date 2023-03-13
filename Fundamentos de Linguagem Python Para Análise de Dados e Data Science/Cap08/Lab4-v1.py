@@ -81,7 +81,7 @@ O   |
 class Hangman:
 
 	# Método Construtor
-     def __init__(self, palavra):
+	def __init__(self, palavra):
           self.palavra = palavra
           self.letras_erradas = []
           self.letras_escolhidas = []
